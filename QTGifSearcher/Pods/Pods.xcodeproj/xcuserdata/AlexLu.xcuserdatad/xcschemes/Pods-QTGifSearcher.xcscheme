@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AB78402B12BD7C8D1531198AFC303CFA'
+               BlueprintIdentifier = '7A117AE9AF182E4C5FCC4CD42EDF9795'
                BlueprintName = 'Pods-QTGifSearcher'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-QTGifSearcher.a'>

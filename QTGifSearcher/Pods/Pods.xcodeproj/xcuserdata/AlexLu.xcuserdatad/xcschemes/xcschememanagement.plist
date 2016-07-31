@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-QTGifSearcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,15 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1A79BA86DB198181905CBBFC1F1E6701</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A117AE9AF182E4C5FCC4CD42EDF9795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>928353533005A4198EBDA5B700D37B64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AA7FAC6A4895B9C7293B2FCDE997BDA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AB78402B12BD7C8D1531198AFC303CFA</key>
+		<key>DF901B1969E6D0CD09D0F4A30DEF927C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
