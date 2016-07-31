@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6273EFE81D4CA28100F025BC /* QTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFE71D4CA28100F025BC /* QTBaseViewController.m */; };
+		6273EFED1D4CA3BA00F025BC /* QTBaseApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFEC1D4CA3BA00F025BC /* QTBaseApiClient.m */; };
+		6273EFF01D4CA48200F025BC /* QTGiphyApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFEF1D4CA48200F025BC /* QTGiphyApiClient.m */; };
+		6273EFF51D4CB12800F025BC /* QTTrendingGifsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFF31D4CB12800F025BC /* QTTrendingGifsViewController.m */; };
+		6273EFF61D4CB12800F025BC /* QTTrendingGifsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6273EFF41D4CB12800F025BC /* QTTrendingGifsViewController.xib */; };
+		6273EFF91D4CB2AC00F025BC /* QTTrendingGifsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFF81D4CB2AC00F025BC /* QTTrendingGifsPresenter.m */; };
+		6273EFFE1D4CE6C100F025BC /* QTGifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273EFFC1D4CE6C100F025BC /* QTGifCell.m */; };
+		6273EFFF1D4CE6C100F025BC /* QTGifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6273EFFD1D4CE6C100F025BC /* QTGifCell.xib */; };
+		6273F0031D4CEC9F00F025BC /* QTGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 6273F0021D4CEC9F00F025BC /* QTGif.m */; };
+		62AF47841D4C9F91005D617A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF47831D4C9F91005D617A /* main.m */; };
+		62AF47871D4C9F91005D617A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF47861D4C9F91005D617A /* AppDelegate.m */; };
+		62AF478F1D4C9F91005D617A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AF478E1D4C9F91005D617A /* Assets.xcassets */; };
+		62AF47921D4C9F91005D617A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AF47901D4C9F91005D617A /* LaunchScreen.storyboard */; };
+		62AF479D1D4C9F91005D617A /* QTGifSearcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF479C1D4C9F91005D617A /* QTGifSearcherTests.m */; };
+		62C294BD1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C294BB1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.m */; };
+		62C294BE1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C294BC1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.xib */; };
+		6FFFF2662B804C122011F045 /* libPods-QTGifSearcherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B025FD84740019AE25626FA /* libPods-QTGifSearcherTests.a */; };
+		84C0B1ABA759AA3B64DFB69B /* libPods-QTGifSearcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A6AB5AD8B82537CFFAEAFF /* libPods-QTGifSearcher.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62AF47991D4C9F91005D617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62AF47771D4C9F90005D617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62AF477E1D4C9F91005D617A;
+			remoteInfo = QTGifSearcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B025FD84740019AE25626FA /* libPods-QTGifSearcherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTGifSearcherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A6AB5AD8B82537CFFAEAFF /* libPods-QTGifSearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTGifSearcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6273EFE61D4CA28100F025BC /* QTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTBaseViewController.h; sourceTree = "<group>"; };
+		6273EFE71D4CA28100F025BC /* QTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTBaseViewController.m; sourceTree = "<group>"; };
+		6273EFEB1D4CA3BA00F025BC /* QTBaseApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTBaseApiClient.h; sourceTree = "<group>"; };
+		6273EFEC1D4CA3BA00F025BC /* QTBaseApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTBaseApiClient.m; sourceTree = "<group>"; };
+		6273EFEE1D4CA48200F025BC /* QTGiphyApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTGiphyApiClient.h; sourceTree = "<group>"; };
+		6273EFEF1D4CA48200F025BC /* QTGiphyApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTGiphyApiClient.m; sourceTree = "<group>"; };
+		6273EFF21D4CB12800F025BC /* QTTrendingGifsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTrendingGifsViewController.h; sourceTree = "<group>"; };
+		6273EFF31D4CB12800F025BC /* QTTrendingGifsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTrendingGifsViewController.m; sourceTree = "<group>"; };
+		6273EFF41D4CB12800F025BC /* QTTrendingGifsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTTrendingGifsViewController.xib; sourceTree = "<group>"; };
+		6273EFF71D4CB2AC00F025BC /* QTTrendingGifsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTrendingGifsPresenter.h; sourceTree = "<group>"; };
+		6273EFF81D4CB2AC00F025BC /* QTTrendingGifsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTrendingGifsPresenter.m; sourceTree = "<group>"; };
+		6273EFFA1D4CB2CB00F025BC /* QTTrendingGifsVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTrendingGifsVisualizer.h; sourceTree = "<group>"; };
+		6273EFFB1D4CE6C100F025BC /* QTGifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QTGifCell.h; path = ../QTGifCell.h; sourceTree = "<group>"; };
+		6273EFFC1D4CE6C100F025BC /* QTGifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QTGifCell.m; path = ../QTGifCell.m; sourceTree = "<group>"; };
+		6273EFFD1D4CE6C100F025BC /* QTGifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QTGifCell.xib; path = ../QTGifCell.xib; sourceTree = "<group>"; };
+		6273F0011D4CEC9F00F025BC /* QTGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTGif.h; sourceTree = "<group>"; };
+		6273F0021D4CEC9F00F025BC /* QTGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTGif.m; sourceTree = "<group>"; };
+		62AF477F1D4C9F91005D617A /* QTGifSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTGifSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AF47831D4C9F91005D617A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62AF47851D4C9F91005D617A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62AF47861D4C9F91005D617A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62AF478E1D4C9F91005D617A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62AF47911D4C9F91005D617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62AF47931D4C9F91005D617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62AF47981D4C9F91005D617A /* QTGifSearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTGifSearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AF479C1D4C9F91005D617A /* QTGifSearcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTGifSearcherTests.m; sourceTree = "<group>"; };
+		62AF479E1D4C9F91005D617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C294BA1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTSearchedGifsViewController.h; sourceTree = "<group>"; };
+		62C294BB1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTSearchedGifsViewController.m; sourceTree = "<group>"; };
+		62C294BC1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTSearchedGifsViewController.xib; sourceTree = "<group>"; };
+		A745F740B438BE7B34805F59 /* Pods-QTGifSearcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTGifSearcherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTGifSearcherTests/Pods-QTGifSearcherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD9707B5459CBB3C8CDA02B /* Pods-QTGifSearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTGifSearcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTGifSearcher/Pods-QTGifSearcher.release.xcconfig"; sourceTree = "<group>"; };
+		C20AC8B0E22AFE7728257024 /* Pods-QTGifSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTGifSearcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTGifSearcher/Pods-QTGifSearcher.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3F849CD86A57D04E780EC2 /* Pods-QTGifSearcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTGifSearcherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTGifSearcherTests/Pods-QTGifSearcherTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62AF477C1D4C9F91005D617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C0B1ABA759AA3B64DFB69B /* libPods-QTGifSearcher.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AF47951D4C9F91005D617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFFF2662B804C122011F045 /* libPods-QTGifSearcherTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A615F0411DDFD8C4980A67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C20AC8B0E22AFE7728257024 /* Pods-QTGifSearcher.debug.xcconfig */,
+				AAD9707B5459CBB3C8CDA02B /* Pods-QTGifSearcher.release.xcconfig */,
+				A745F740B438BE7B34805F59 /* Pods-QTGifSearcherTests.debug.xcconfig */,
+				CD3F849CD86A57D04E780EC2 /* Pods-QTGifSearcherTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6273EFE31D4CA25800F025BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6273F0011D4CEC9F00F025BC /* QTGif.h */,
+				6273F0021D4CEC9F00F025BC /* QTGif.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6273EFE41D4CA25800F025BC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6273EFE61D4CA28100F025BC /* QTBaseViewController.h */,
+				6273EFE71D4CA28100F025BC /* QTBaseViewController.m */,
+				62C294B91D4E7DE800EF3C2B /* SerchedGifs Screen */,
+				6273EFF11D4CB10B00F025BC /* TrenfingGifs Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6273EFE51D4CA25800F025BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6273EFE91D4CA34D00F025BC /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6273EFE91D4CA34D00F025BC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6273EFEB1D4CA3BA00F025BC /* QTBaseApiClient.h */,
+				6273EFEC1D4CA3BA00F025BC /* QTBaseApiClient.m */,
+				6273EFEE1D4CA48200F025BC /* QTGiphyApiClient.h */,
+				6273EFEF1D4CA48200F025BC /* QTGiphyApiClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6273EFF11D4CB10B00F025BC /* TrenfingGifs Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6273EFF21D4CB12800F025BC /* QTTrendingGifsViewController.h */,
+				6273EFF31D4CB12800F025BC /* QTTrendingGifsViewController.m */,
+				6273EFF41D4CB12800F025BC /* QTTrendingGifsViewController.xib */,
+				6273EFF71D4CB2AC00F025BC /* QTTrendingGifsPresenter.h */,
+				6273EFF81D4CB2AC00F025BC /* QTTrendingGifsPresenter.m */,
+				6273EFFA1D4CB2CB00F025BC /* QTTrendingGifsVisualizer.h */,
+				6273F0001D4CE6DA00F025BC /* Giff Cell */,
+			);
+			path = "TrenfingGifs Screen";
+			sourceTree = "<group>";
+		};
+		6273F0001D4CE6DA00F025BC /* Giff Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6273EFFB1D4CE6C100F025BC /* QTGifCell.h */,
+				6273EFFC1D4CE6C100F025BC /* QTGifCell.m */,
+				6273EFFD1D4CE6C100F025BC /* QTGifCell.xib */,
+			);
+			path = "Giff Cell";
+			sourceTree = "<group>";
+		};
+		62AF47761D4C9F90005D617A = {
+			isa = PBXGroup;
+			children = (
+				62AF47811D4C9F91005D617A /* QTGifSearcher */,
+				62AF479B1D4C9F91005D617A /* QTGifSearcherTests */,
+				62AF47801D4C9F91005D617A /* Products */,
+				04A615F0411DDFD8C4980A67 /* Pods */,
+				F0D520DE0C587ACC8305B21C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62AF47801D4C9F91005D617A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AF477F1D4C9F91005D617A /* QTGifSearcher.app */,
+				62AF47981D4C9F91005D617A /* QTGifSearcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62AF47811D4C9F91005D617A /* QTGifSearcher */ = {
+			isa = PBXGroup;
+			children = (
+				62AF47851D4C9F91005D617A /* AppDelegate.h */,
+				62AF47861D4C9F91005D617A /* AppDelegate.m */,
+				6273EFE31D4CA25800F025BC /* Models */,
+				6273EFE41D4CA25800F025BC /* Screens */,
+				6273EFE51D4CA25800F025BC /* Services */,
+				62AF478E1D4C9F91005D617A /* Assets.xcassets */,
+				62AF47901D4C9F91005D617A /* LaunchScreen.storyboard */,
+				62AF47931D4C9F91005D617A /* Info.plist */,
+				62AF47821D4C9F91005D617A /* Supporting Files */,
+			);
+			path = QTGifSearcher;
+			sourceTree = "<group>";
+		};
+		62AF47821D4C9F91005D617A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62AF47831D4C9F91005D617A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62AF479B1D4C9F91005D617A /* QTGifSearcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				62AF479C1D4C9F91005D617A /* QTGifSearcherTests.m */,
+				62AF479E1D4C9F91005D617A /* Info.plist */,
+			);
+			path = QTGifSearcherTests;
+			sourceTree = "<group>";
+		};
+		62C294B91D4E7DE800EF3C2B /* SerchedGifs Screen */ = {
+			isa = PBXGroup;
+			children = (
+				62C294BA1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.h */,
+				62C294BB1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.m */,
+				62C294BC1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.xib */,
+			);
+			path = "SerchedGifs Screen";
+			sourceTree = "<group>";
+		};
+		F0D520DE0C587ACC8305B21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20A6AB5AD8B82537CFFAEAFF /* libPods-QTGifSearcher.a */,
+				0B025FD84740019AE25626FA /* libPods-QTGifSearcherTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62AF477E1D4C9F91005D617A /* QTGifSearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AF47A11D4C9F91005D617A /* Build configuration list for PBXNativeTarget "QTGifSearcher" */;
+			buildPhases = (
+				9E6A58A0228E386F1145319D /* [CP] Check Pods Manifest.lock */,
+				62AF477B1D4C9F91005D617A /* Sources */,
+				62AF477C1D4C9F91005D617A /* Frameworks */,
+				62AF477D1D4C9F91005D617A /* Resources */,
+				787BF1A7674E90EA214B1072 /* [CP] Embed Pods Frameworks */,
+				803B2EB3CA347D7632F3A0F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTGifSearcher;
+			productName = QTGifSearcher;
+			productReference = 62AF477F1D4C9F91005D617A /* QTGifSearcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62AF47971D4C9F91005D617A /* QTGifSearcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62AF47A41D4C9F91005D617A /* Build configuration list for PBXNativeTarget "QTGifSearcherTests" */;
+			buildPhases = (
+				8914542A186230874C44C20A /* [CP] Check Pods Manifest.lock */,
+				62AF47941D4C9F91005D617A /* Sources */,
+				62AF47951D4C9F91005D617A /* Frameworks */,
+				62AF47961D4C9F91005D617A /* Resources */,
+				BAA2748CCCB9725931CB5B5C /* [CP] Embed Pods Frameworks */,
+				5132CC748B2D1DD419F14BFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62AF479A1D4C9F91005D617A /* PBXTargetDependency */,
+			);
+			name = QTGifSearcherTests;
+			productName = QTGifSearcherTests;
+			productReference = 62AF47981D4C9F91005D617A /* QTGifSearcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62AF47771D4C9F90005D617A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexander Luchenok";
+				TargetAttributes = {
+					62AF477E1D4C9F91005D617A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					62AF47971D4C9F91005D617A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 62AF477E1D4C9F91005D617A;
+					};
+				};
+			};
+			buildConfigurationList = 62AF477A1D4C9F90005D617A /* Build configuration list for PBXProject "QTGifSearcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62AF47761D4C9F90005D617A;
+			productRefGroup = 62AF47801D4C9F91005D617A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62AF477E1D4C9F91005D617A /* QTGifSearcher */,
+				62AF47971D4C9F91005D617A /* QTGifSearcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62AF477D1D4C9F91005D617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6273EFF61D4CB12800F025BC /* QTTrendingGifsViewController.xib in Resources */,
+				6273EFFF1D4CE6C100F025BC /* QTGifCell.xib in Resources */,
+				62AF47921D4C9F91005D617A /* LaunchScreen.storyboard in Resources */,
+				62AF478F1D4C9F91005D617A /* Assets.xcassets in Resources */,
+				62C294BE1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AF47961D4C9F91005D617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5132CC748B2D1DD419F14BFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTGifSearcherTests/Pods-QTGifSearcherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787BF1A7674E90EA214B1072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTGifSearcher/Pods-QTGifSearcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		803B2EB3CA347D7632F3A0F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTGifSearcher/Pods-QTGifSearcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8914542A186230874C44C20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6A58A0228E386F1145319D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA2748CCCB9725931CB5B5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTGifSearcherTests/Pods-QTGifSearcherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62AF477B1D4C9F91005D617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6273EFF01D4CA48200F025BC /* QTGiphyApiClient.m in Sources */,
+				6273EFFE1D4CE6C100F025BC /* QTGifCell.m in Sources */,
+				62AF47871D4C9F91005D617A /* AppDelegate.m in Sources */,
+				6273EFF91D4CB2AC00F025BC /* QTTrendingGifsPresenter.m in Sources */,
+				6273EFED1D4CA3BA00F025BC /* QTBaseApiClient.m in Sources */,
+				6273EFE81D4CA28100F025BC /* QTBaseViewController.m in Sources */,
+				6273F0031D4CEC9F00F025BC /* QTGif.m in Sources */,
+				62AF47841D4C9F91005D617A /* main.m in Sources */,
+				6273EFF51D4CB12800F025BC /* QTTrendingGifsViewController.m in Sources */,
+				62C294BD1D4E7E3D00EF3C2B /* QTSearchedGifsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AF47941D4C9F91005D617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AF479D1D4C9F91005D617A /* QTGifSearcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62AF479A1D4C9F91005D617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62AF477E1D4C9F91005D617A /* QTGifSearcher */;
+			targetProxy = 62AF47991D4C9F91005D617A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62AF47901D4C9F91005D617A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62AF47911D4C9F91005D617A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62AF479F1D4C9F91005D617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62AF47A01D4C9F91005D617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62AF47A21D4C9F91005D617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20AC8B0E22AFE7728257024 /* Pods-QTGifSearcher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTGifSearcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderluchenok.QTGifSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62AF47A31D4C9F91005D617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD9707B5459CBB3C8CDA02B /* Pods-QTGifSearcher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTGifSearcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderluchenok.QTGifSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62AF47A51D4C9F91005D617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A745F740B438BE7B34805F59 /* Pods-QTGifSearcherTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTGifSearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderluchenok.QTGifSearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTGifSearcher.app/QTGifSearcher";
+			};
+			name = Debug;
+		};
+		62AF47A61D4C9F91005D617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3F849CD86A57D04E780EC2 /* Pods-QTGifSearcherTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTGifSearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderluchenok.QTGifSearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTGifSearcher.app/QTGifSearcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62AF477A1D4C9F90005D617A /* Build configuration list for PBXProject "QTGifSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AF479F1D4C9F91005D617A /* Debug */,
+				62AF47A01D4C9F91005D617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AF47A11D4C9F91005D617A /* Build configuration list for PBXNativeTarget "QTGifSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AF47A21D4C9F91005D617A /* Debug */,
+				62AF47A31D4C9F91005D617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62AF47A41D4C9F91005D617A /* Build configuration list for PBXNativeTarget "QTGifSearcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AF47A51D4C9F91005D617A /* Debug */,
+				62AF47A61D4C9F91005D617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62AF47771D4C9F90005D617A /* Project object */;
+}

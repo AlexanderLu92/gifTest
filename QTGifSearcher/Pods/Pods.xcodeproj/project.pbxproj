@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511A12650A284D26A4641782145E7415 /* Pods-QTGifSearcherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CEF38093E75823B10DDB6364779A8 /* Pods-QTGifSearcherTests-dummy.m */; };
+		6527D075EB0CD8F5576787CF5E3DED9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		86C9E1AD0C44819F70886FA1A7C1E0D7 /* Pods-QTGifSearcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0066B1BBD32C56F19AC96CF3D36BA47C /* Pods-QTGifSearcher-dummy.m */; };
+		FA4DD96A0359AE01122EF12C42EEF67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0066B1BBD32C56F19AC96CF3D36BA47C /* Pods-QTGifSearcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTGifSearcher-dummy.m"; sourceTree = "<group>"; };
+		0C242CD828A001A7EF1DB10BF0CAD86E /* libPods-QTGifSearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTGifSearcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C54A8B6302834649B6D4BC73E843C9B /* Pods-QTGifSearcherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTGifSearcherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		247F98032348D54FA7407DDF6DB5C071 /* libPods-QTGifSearcherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTGifSearcherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5CEF38093E75823B10DDB6364779A8 /* Pods-QTGifSearcherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTGifSearcherTests-dummy.m"; sourceTree = "<group>"; };
+		38B872E7CEF00B8F36D4499D8215D34A /* Pods-QTGifSearcherTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTGifSearcherTests-frameworks.sh"; sourceTree = "<group>"; };
+		40F40034B48108860FDA049BA0DDC7CA /* Pods-QTGifSearcher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTGifSearcher-frameworks.sh"; sourceTree = "<group>"; };
+		48226D8E4C7756BD233B87432105C1E6 /* Pods-QTGifSearcher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTGifSearcher-acknowledgements.plist"; sourceTree = "<group>"; };
+		61282CA65A475A9B561F5B448102724A /* Pods-QTGifSearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTGifSearcher.release.xcconfig"; sourceTree = "<group>"; };
+		89778642239E26F9B54AEF391153A79D /* Pods-QTGifSearcher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTGifSearcher-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA07A983C8652379B24662EEFCE4A0C1 /* Pods-QTGifSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTGifSearcher.debug.xcconfig"; sourceTree = "<group>"; };
+		C32399BD7E5434AA98044A4C29F9BE22 /* Pods-QTGifSearcherTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTGifSearcherTests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F19912EBB1D607ADAB3A5E7355A9A3A3 /* Pods-QTGifSearcherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTGifSearcherTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F91B986C1DD00CBDE5BA744090D5D813 /* Pods-QTGifSearcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTGifSearcherTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE140B78E19298963FA419F50F2BA456 /* Pods-QTGifSearcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTGifSearcherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFBACE8993405849AFAC8B3BE9ED23B8 /* Pods-QTGifSearcher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTGifSearcher-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356EB47EF3EAB768B2A07A8E0FEDE661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6527D075EB0CD8F5576787CF5E3DED9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB82716D1B008E382DD55987EA7AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DD96A0359AE01122EF12C42EEF67F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFD2985C6FDF20CCCD66D5118F5A3B3 /* Pods-QTGifSearcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C54A8B6302834649B6D4BC73E843C9B /* Pods-QTGifSearcherTests-acknowledgements.markdown */,
+				F19912EBB1D607ADAB3A5E7355A9A3A3 /* Pods-QTGifSearcherTests-acknowledgements.plist */,
+				2C5CEF38093E75823B10DDB6364779A8 /* Pods-QTGifSearcherTests-dummy.m */,
+				38B872E7CEF00B8F36D4499D8215D34A /* Pods-QTGifSearcherTests-frameworks.sh */,
+				C32399BD7E5434AA98044A4C29F9BE22 /* Pods-QTGifSearcherTests-resources.sh */,
+				FE140B78E19298963FA419F50F2BA456 /* Pods-QTGifSearcherTests.debug.xcconfig */,
+				F91B986C1DD00CBDE5BA744090D5D813 /* Pods-QTGifSearcherTests.release.xcconfig */,
+			);
+			name = "Pods-QTGifSearcherTests";
+			path = "Target Support Files/Pods-QTGifSearcherTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		450F0514AFE5EA08F76026431C937D4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7950B71D971CDA1EF07CB246C0F0A /* Pods-QTGifSearcher */,
+				3AFD2985C6FDF20CCCD66D5118F5A3B3 /* Pods-QTGifSearcherTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		498667DC39CD60EE8553FBD8A6ACD1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C242CD828A001A7EF1DB10BF0CAD86E /* libPods-QTGifSearcher.a */,
+				247F98032348D54FA7407DDF6DB5C071 /* libPods-QTGifSearcherTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				498667DC39CD60EE8553FBD8A6ACD1E6 /* Products */,
+				450F0514AFE5EA08F76026431C937D4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B7950B71D971CDA1EF07CB246C0F0A /* Pods-QTGifSearcher */ = {
+			isa = PBXGroup;
+			children = (
+				FFBACE8993405849AFAC8B3BE9ED23B8 /* Pods-QTGifSearcher-acknowledgements.markdown */,
+				48226D8E4C7756BD233B87432105C1E6 /* Pods-QTGifSearcher-acknowledgements.plist */,
+				0066B1BBD32C56F19AC96CF3D36BA47C /* Pods-QTGifSearcher-dummy.m */,
+				40F40034B48108860FDA049BA0DDC7CA /* Pods-QTGifSearcher-frameworks.sh */,
+				89778642239E26F9B54AEF391153A79D /* Pods-QTGifSearcher-resources.sh */,
+				AA07A983C8652379B24662EEFCE4A0C1 /* Pods-QTGifSearcher.debug.xcconfig */,
+				61282CA65A475A9B561F5B448102724A /* Pods-QTGifSearcher.release.xcconfig */,
+			);
+			name = "Pods-QTGifSearcher";
+			path = "Target Support Files/Pods-QTGifSearcher";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7FAC6A4895B9C7293B2FCDE997BDA0 /* Pods-QTGifSearcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773BED401A929985D154B7C733D5DE9A /* Build configuration list for PBXNativeTarget "Pods-QTGifSearcherTests" */;
+			buildPhases = (
+				1891171C9DFDD143908209E19F886DE1 /* Sources */,
+				AFB82716D1B008E382DD55987EA7AFE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QTGifSearcherTests";
+			productName = "Pods-QTGifSearcherTests";
+			productReference = 247F98032348D54FA7407DDF6DB5C071 /* libPods-QTGifSearcherTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB78402B12BD7C8D1531198AFC303CFA /* Pods-QTGifSearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05573C5D9BE2168B7337EBC330797BF3 /* Build configuration list for PBXNativeTarget "Pods-QTGifSearcher" */;
+			buildPhases = (
+				ABC50240F96420F1AF183F503225B77E /* Sources */,
+				356EB47EF3EAB768B2A07A8E0FEDE661 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QTGifSearcher";
+			productName = "Pods-QTGifSearcher";
+			productReference = 0C242CD828A001A7EF1DB10BF0CAD86E /* libPods-QTGifSearcher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 498667DC39CD60EE8553FBD8A6ACD1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB78402B12BD7C8D1531198AFC303CFA /* Pods-QTGifSearcher */,
+				AA7FAC6A4895B9C7293B2FCDE997BDA0 /* Pods-QTGifSearcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1891171C9DFDD143908209E19F886DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511A12650A284D26A4641782145E7415 /* Pods-QTGifSearcherTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC50240F96420F1AF183F503225B77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C9E1AD0C44819F70886FA1A7C1E0D7 /* Pods-QTGifSearcher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		19273B1B15E328C7D649CC198154E384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE140B78E19298963FA419F50F2BA456 /* Pods-QTGifSearcherTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56683FC359C70DBE252879F69F214B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91B986C1DD00CBDE5BA744090D5D813 /* Pods-QTGifSearcherTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		897B918F28F4B7B18597E2D9626480C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA07A983C8652379B24662EEFCE4A0C1 /* Pods-QTGifSearcher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D2194323FB0398D011BBCA62C859A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61282CA65A475A9B561F5B448102724A /* Pods-QTGifSearcher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05573C5D9BE2168B7337EBC330797BF3 /* Build configuration list for PBXNativeTarget "Pods-QTGifSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897B918F28F4B7B18597E2D9626480C6 /* Debug */,
+				F2D2194323FB0398D011BBCA62C859A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773BED401A929985D154B7C733D5DE9A /* Build configuration list for PBXNativeTarget "Pods-QTGifSearcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19273B1B15E328C7D649CC198154E384 /* Debug */,
+				56683FC359C70DBE252879F69F214B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
